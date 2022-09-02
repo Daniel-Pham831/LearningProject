@@ -1,6 +1,7 @@
 ﻿using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
@@ -10,38 +11,32 @@ namespace LearningProject
 {
     internal class Program
     {
+       
         static void Main(string[] args)
         {
-            
-        }
+            /* (Ưu tiên làm bằng switch case)
+             Bài 1:
+                Viết chương trình nhập vào 1 số nguyên với phạm vi -5000 -> 5000
+                Kiểm tra xem số đó là số chẵn hay lẽ
+             
+             Bài 2:
+                Viết chương trình nhập vào 1 số nguyên bất kì từ 0 -> 9
+                Sau đó xuất ra giá trị của số đó bằng chuỗi
+                vd: nhập vào 1 -> Số một
+                vd: nhập vào 9 -> Số chín
+             
+             Bài 3:
+                Viết chương trình nhập vào 2 số bất kì
+                Sau đó show menu ra 4 lựa chọn từ 1 -> 4
+                1: Tính tổng A B
+                2: Tính hiệu A B
+                3: Tính tich A B
+                4: Tính thương A B
+                
+                Xuất ra kết quả của lựa chọn đó
+             */
 
-        /*  Bài 1:
-         *  Nhập 2 số A B bất kì
-         *  Kiểm tra xem số A có chia hết cho số B hay là ko? // Toán tử, toán tử toán học
-         *  Nếu có -> A chia hết cho B
-         *  Nếu ko -> A ko chia hết cho B
-         * 
-         * 
-         *  Bài 2:
-         *  Nhập 1 năm bất kì từ 0 -> 5000 
-         *  Kiểm tra xem năm đó có phải là năm nhuận hay ko? 4 100 400
-         *  Nếu là năm nhuận thì xuất ra 
-         *  Năm {x} có 366 ngày
-         *  Nếu ko phải thì xuất ra
-         *  Năm {x} có 365 ngày
-         *  
-         *  Bài 3:
-         *  Nhập vào điểm 3 môn học. Toán Văn Anh
-         *  Kiểm tra học lực của người dùng biết rằng
-         *  ĐTB >= 8.5 là Giỏi
-         *  ĐTB >= 6.5 là Khá
-         *  ĐTB >= 5 là Trung bình
-         *  Bonus: ko có môn nào được dưới ngưỡng (có thể bỏ nếu quá khó) 
-         * 
-         *  Bài 4:
-         *  Nhập vào 3 số  a b c. Đại diện cho phương trình bậc 2  ax^2 + bx + c = 0
-         *  Tìm x
-         * 
-         */
+            Console.ReadLine();
+        }
     }
 }
