@@ -14,26 +14,23 @@ namespace LearningProject
        
         static void Main(string[] args)
         {
-            /* (Ưu tiên làm bằng switch case)
+            /*
              Bài 1:
-                Viết chương trình nhập vào 1 số nguyên với phạm vi -5000 -> 5000
-                Kiểm tra xem số đó là số chẵn hay lẽ
-             
+                Nhập vào 2 số A B bất kì (A nhỏ hơn B)
+                Xuất tất cả các số nguyên từ A -> B , và từ B -> A
+            
              Bài 2:
-                Viết chương trình nhập vào 1 số nguyên bất kì từ 0 -> 9
-                Sau đó xuất ra giá trị của số đó bằng chuỗi
-                vd: nhập vào 1 -> Số một
-                vd: nhập vào 9 -> Số chín
-             
+                Nhập vào 1 số A bất kì 
+                Xuất tất cả các số chia hết cho 3 trong khoản 0 -> A
+
              Bài 3:
-                Viết chương trình nhập vào 2 số bất kì
-                Sau đó show menu ra 4 lựa chọn từ 1 -> 4
-                1: Tính tổng A B
-                2: Tính hiệu A B
-                3: Tính tich A B
-                4: Tính thương A B
-                
-                Xuất ra kết quả của lựa chọn đó
+                Nhập vào 2 số A B bất kì (A nhỏ hơn B)
+                Xuất tất cả các số chia hết cho 3 trong khoản A -> B
+
+             Bài 4:
+                Nhập 1 số bất kì từ 0 -> 9
+                Xuất ra bảng cửu chương của số đó
+
              */
 
             Console.ReadLine();
