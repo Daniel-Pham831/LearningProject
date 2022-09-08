@@ -11,27 +11,21 @@ namespace LearningProject
 {
     internal class Program
     {
-       
         static void Main(string[] args)
         {
             /*
              Bài 1:
-                Nhập vào 2 số A B bất kì (A nhỏ hơn B)
-                Xuất tất cả các số nguyên từ A -> B , và từ B -> A
-            
+                Tạo hàm nhận vào 2 số nguyên, sau đó trả về tích 2 số đó
+             
              Bài 2:
-                Nhập vào 1 số A bất kì 
-                Xuất tất cả các số chia hết cho 3 trong khoản 0 -> A
+                Tạo hàm nhận vào tên và tuổi của người dùng, sau đó xuất ra thông tin
 
-             Bài 3:
-                Nhập vào 2 số A B bất kì (A nhỏ hơn B)
-                Xuất tất cả các số chia hết cho 3 trong khoản A -> B
-
-             Bài 4:
-                Nhập 1 số bất kì từ 0 -> 9
-                Xuất ra bảng cửu chương của số đó
-
+                vd : Tên = Tèo , Tuổi = 13
+                -> Chào Tèo 13 tuổi
+             Bài 3
+             
              */
+            
 
             Console.ReadLine();
         }
