@@ -22,8 +22,11 @@ namespace LearningProject
 
                 vd : Tên = Tèo , Tuổi = 13
                 -> Chào Tèo 13 tuổi
-             Bài 3
-             
+             Bài 3:
+                Tạo hàm nhận vào 1 số nguyên A, sau đó trả về TỔNG từ 0 -> A 0+1+2+3
+
+             Bài 4:
+                Tạo hàm nhận vào 1 số nguyên A, sau đó kiểm tra xem số A đó có chia hết cho 3
              */
             
 
