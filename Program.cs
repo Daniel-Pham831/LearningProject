@@ -1,11 +1,6 @@
-﻿using System;
-using System.CodeDom;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System;
 
 namespace LearningProject
 {
@@ -14,21 +9,23 @@ namespace LearningProject
         static void Main(string[] args)
         {
             /*
-             Bài 1:
-                Tạo hàm nhận vào 2 số nguyên, sau đó trả về tích 2 số đó
+            Bài 1: Viết chương trình nhập vào 1 mảng số nguyên có N phần tử
+            (N do người dùng nhập vào)
+            rồi xuất các phần tử mảng này trên màn hình. 
+
+            Bài 2: Y như bài 1 nhưng xuất mảng theo chiều ngược
+
+            Bài 3: Viết chương trình tính tổng tất cả các phần tử có trong mảng
+            Hướng dẫn:
+                B1: Nhập số lượng phần tử - sau đó đưa dữ liệu vào (bài 1)
+                B2: Viết hàm tính tổng tất cả các phần tử có trong mảng bằng for
+
+            Bài 4: Viết hàm tìm phần tử lớn và nhỏ nhất trong mảng
              
-             Bài 2:
-                Tạo hàm nhận vào tên và tuổi của người dùng, sau đó xuất ra thông tin
-
-                vd : Tên = Tèo , Tuổi = 13
-                -> Chào Tèo 13 tuổi
-             Bài 3:
-                Tạo hàm nhận vào 1 số nguyên A, sau đó trả về TỔNG từ 0 -> A 0+1+2+3
-
-             Bài 4:
-                Tạo hàm nhận vào 1 số nguyên A, sau đó kiểm tra xem số A đó có chia hết cho 3
-             */
-            
+             
+             
+             
+            */
 
             Console.ReadLine();
         }
