@@ -11,27 +11,37 @@ namespace LearningProject
             /*
              Bài 1:
                 Viết hàm kiểm tra số nguyên tố
-             
-             Bài 2:
-                Viết hàm xuất ra N số nguyên tố đầu tiên (N được nhập vào)
-
-             Bài 3:
-                Viết hàm kiểm tra số hoàn thiện
-
-             Bài 4:
-                Viết hàm tính tổng các chữ số trong 1 số bất kì.
-                vd:
-                    102 -> 1+0+2 = 3
-                    548 -> 5+4+8 = 17
-             Bài 5:
-                Viết hàm tính tổng tất cả các số nguyên từ A -> B (A và B được nhập vào)
-                Sau đó hiển thị ra màn hình tổng các số từ a tới b
-
-             Bài 6:
-                Viết hàm xuất ra N số fibonacci đầu tiên (N được nhập vào)
              */
 
+            int num;
+            Console.Write("Enter a number: ");
+            num = int.Parse(Console.ReadLine());
+            bool checker = IsPrimeNumber(num);
+
+            if (checker)
+            {
+                Console.WriteLine("This is a Prime Number!");
+            }
+            else
+            {
+                Console.WriteLine("This is NOT a Prime Number!");
+            }
+
             Console.ReadLine();
+        }
+
+        // CHỉ chia hết cho 1 và chính nó
+        static bool IsPrimeNumber(int numToCheck)//7
+        {
+            for(int i =2;i <numToCheck; i++) // 2 3 4 5 6
+            {
+                if(numToCheck % i == 0) // nếu i chia hết cho numToCheck
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
