@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 
 namespace LearningProject
 {
@@ -10,38 +8,25 @@ namespace LearningProject
         {
             /*
              Bài 1:
-                Viết hàm kiểm tra số nguyên tố
+                Viet hàm Nhập và Xuất 1 mảng số nguyên
+
+             Bài 2:
+                Viết hàm TÌM ra 1 số nguyên có trong mảng 
+
+             Bài 3:
+                Viết hàm xuất ra tất cả các số dương có trong mảng
+
+             Bài 4:
+                Viết hàm xuất ra tất cả các số chia hết cho N (N lấy từ người dùng)
+
+             Bài 5:
+                Viết hàm nhân tất cả các số chẵn có trong mảng lên xN (với N lấy từ người dùng)
+
+             Bài 6:
+                Viết hàm sắp xếp mảng tăng dần hoặc giảm dần
              */
 
-            int num;
-            Console.Write("Enter a number: ");
-            num = int.Parse(Console.ReadLine());
-            bool checker = IsPrimeNumber(num);
-
-            if (checker)
-            {
-                Console.WriteLine("This is a Prime Number!");
-            }
-            else
-            {
-                Console.WriteLine("This is NOT a Prime Number!");
-            }
-
             Console.ReadLine();
-        }
-
-        // CHỉ chia hết cho 1 và chính nó
-        static bool IsPrimeNumber(int numToCheck)//7
-        {
-            for(int i =2;i <numToCheck; i++) // 2 3 4 5 6
-            {
-                if(numToCheck % i == 0) // nếu i chia hết cho numToCheck
-                {
-                    return false;
-                }
-            }
-
-            return true;
         }
     }
 }
